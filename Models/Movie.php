@@ -2,11 +2,9 @@
 
 class Movie {
 
-    public $title;
-    public $original_title;
-    public $date;
-    public $votes;
-    public $country;
+    //metodo corretto per non specificare ad ogni singolo elemento il public
+    public 
+    $title,$original_title,$date,$votes,$country;
 
     //contructor
     function __construct($title, $original_title,$date,$votes,$country){
