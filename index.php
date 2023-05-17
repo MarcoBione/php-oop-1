@@ -22,15 +22,15 @@ include __DIR__.'/Database/database.php';
 <ul>
     <?php foreach ($films as $film): ?>
         <li>
+            <hr>
             nome : <?php echo $film->title; ?>
             <br>
             <?php echo $film->original_title; ?>
             <br>
             uscita : <?php echo $film->date; ?>
             <br>
-            voti: <?php echo $film->votes; ?>
-            <br>
-            lingua :<?php echo $film->country; ?>
+            <?php echo $film->GetDetails(); ?>
+
         </li>
     <?php endforeach; ?>
 </ul>

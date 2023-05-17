@@ -20,7 +20,7 @@ class Movie {
 
     //function for details
     Public function GetDetails(){                                   //complex element between {..}
-        return "Votes: $this->votes Language:$this->country Genre:{$this->genre->name}";
+        return "Votes: $this->votes <br> Language:$this->country <br> Genre:{$this->genre->name}";
     }
     
 }
