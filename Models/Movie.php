@@ -17,5 +17,10 @@ class Movie {
         $this->country=$country;
         $this->genre = $genre;
     }
+
+    //function for details
+    Public function GetDetails(){                                   //complex element between {..}
+        return "Votes: $this->votes Language:$this->country Genre:{$this->genre->name}";
+    }
     
 }
