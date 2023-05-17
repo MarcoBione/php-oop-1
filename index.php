@@ -1,6 +1,6 @@
 <?php
 
-include __DIR__.'/Movie.php';
+include __DIR__.'/Models/Movie.php';
 
 $films = [
     new Movie ('Il Padrino','The Godfather','1972-03-24','9.2','en'),
