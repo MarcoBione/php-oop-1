@@ -4,7 +4,7 @@
  * Summary of Genre
  */
 
-class Gnere{
+class Genre{
     public $name;
 
     /**
