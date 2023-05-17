@@ -1,5 +1,7 @@
 <?php
 
+include __DIR__. '/Genre.php';
+
 class Movie {
 
     //metodo corretto per non specificare ad ogni singolo elemento il public
@@ -13,6 +15,7 @@ class Movie {
         $this->date=$date;
         $this->votes=$votes;
         $this->country=$country;
+        $this->genre = $genre;
     }
     
 }
