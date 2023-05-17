@@ -9,7 +9,7 @@ class Movie {
     $title,$original_title,$date,$votes,$country,$genre;
 
     //contructor
-    function __construct(string $title ='',string $original_title = '',string $date='',int $votes='',string $country='en',Genre $genre){
+    function __construct(string $title ='',string $original_title = '',string $date='',string $votes='',string $country='en',Genre $genre){
         $this->title= $title;
         $this->original_title= $original_title;
         $this->date=$date;
